@@ -1,0 +1,53 @@
+name: 项目架构与计划需求
+description: 提交公开需求，由维护者决定是否接受；获批后提供架构和计划。
+title: "[需求] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        本表单、后续评论和附件均公开。请勿提交密码、密钥、验证码、个人信息、客户数据或商业机密。
+        本项目免费提供 AI 辅助方案，由维护者人工决定是否接单；不承诺响应时限，不直接修改他人代码。
+  - type: textarea
+    id: goal
+    attributes:
+      label: 项目目标与使用场景
+      description: 谁会使用？要解决什么问题？怎样算成功？
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: 核心功能与范围
+      description: 列出必需功能、可选功能及本次不做的内容。
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: 技术约束与现状
+      description: 技术栈、运行环境、已有公开项目链接、团队经验与限制；仅提供有权公开的资料。
+    validations:
+      required: true
+  - type: textarea
+    id: deliverable
+    attributes:
+      label: 希望得到的方案与验收标准
+      description: 例如模块架构、接口设计、数据模型、实施里程碑、风险清单及验收方法。
+    validations:
+      required: true
+  - type: textarea
+    id: timing
+    attributes:
+      label: 期望时间与补充说明
+      description: 可选；期望日期不代表承诺。只填写可公开的信息。
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已阅读 README，理解内容公开，且没有提交秘密、个人敏感信息或未经授权的材料。
+          required: true
+        - label: 我理解提交不等于接单，需由维护者批准；交付范围是架构与计划，不直接改动他人代码。
+          required: true
+        - label: 我理解 AI 辅助生成的方案需要人工验证，不能替代专业审查。
+          required: true
