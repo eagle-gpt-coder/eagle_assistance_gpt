@@ -47,3 +47,6 @@ AI 生成内容可能存在错误，应在实际开发、采购、部署前由�
 ## 开源许可
 
 本仓库提供的模板和文档采用 [MIT License](LICENSE)。提交者仍应确保拥有所提交材料的权利；发送邮件不代表同意将材料公开或按本仓库许可证发布。
+
+## 贡献者
+- [the-coder-eagle](https://github.com/the-coder-eagle)
