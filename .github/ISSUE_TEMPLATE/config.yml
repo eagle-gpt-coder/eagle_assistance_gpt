@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "项目需求请通过邮件提交"
+    url: "https://github.com/eagle-gpt-coder/eagle_assistance_gpt/blob/main/README.md#提交需求"
+    about: "发送至 yz5076705@gmail.com；点击查看邮件模板和隐私说明。请勿在公开 Issue 提交需求或密钥。"
